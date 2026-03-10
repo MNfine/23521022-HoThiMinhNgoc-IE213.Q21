@@ -15,11 +15,11 @@
 - Môn học: IE213.Q21 - Kỹ thuật phát triển hệ thống Web
 
 ## 3. Công cụ và môi trường sử dụng
-- MongoDB Atlas: Cloud database
-- MongoDB Compass: GUI quản lý MongoDB
-- Mongosh: MongoDB shell
-- GitHub: Lưu trữ bài thực hành
-- Hệ điều hành: Windows 11
+- MongoDB Atlas: Cloud database.
+- MongoDB Compass: GUI quản lý MongoDB.
+- Mongosh: MongoDB shell.
+- GitHub: Lưu trữ bài thực hành.
+- Hệ điều hành: Windows 11.
 
 ## 4. Nội dung thực hiện
 
@@ -33,14 +33,14 @@ Thêm 4 document đầu tiên vào collection `employees`.
 Dùng `createIndex({id:1}, {unique:true})` để đảm bảo không thể thêm document có id trùng.
 
 ### 4.4 Truy vấn dữ liệu
-- Tìm nhân viên có firstname là John và lastname là Doe
-- Tìm nhân viên có tuổi trên 30 và dưới 60
-- Tìm các document có middle name
+- Tìm nhân viên có firstname là John và lastname là Doe.
+- Tìm nhân viên có tuổi trên 30 và dưới 60.
+- Tìm các document có middle name.
 
 ### 4.5 Cập nhật dữ liệu
-- Xóa trường middle khỏi các document có middle name
-- Thêm trường `organization: "UIT"` cho toàn bộ document
-- Cập nhật organization của nhân viên id 5 và 6 thành `USSH`
+- Xóa trường middle khỏi các document có middle name.
+- Thêm trường `organization: "UIT"` cho toàn bộ document.
+- Cập nhật organization của nhân viên id 5 và 6 thành `USSH`.
 
 ### 4.6 Thống kê dữ liệu
 Sử dụng aggregation để tính tổng tuổi và tuổi trung bình theo organization.
@@ -52,16 +52,16 @@ Sử dụng aggregation để tính tổng tuổi và tuổi trung bình theo or
 4. Chạy lần lượt các lệnh trong file `mongo_commands.js`
 
 ## 6. Kết quả
-- Kết nối MongoDB Atlas thành công
-- Tạo database và collection thành công
-- Thực hiện đầy đủ các truy vấn CRUD
-- Tính được tổng tuổi và tuổi trung bình theo từng organization
+- Kết nối MongoDB Atlas thành công.
+- Tạo database và collection thành công.
+- Thực hiện đầy đủ các truy vấn CRUD.
+- Tính được tổng tuổi và tuổi trung bình theo từng organization.
 
 ## 7. Báo cáo chi tiết
 
 Báo cáo đầy đủ của bài thực hành được trình bày trong file:
 
-**LAB01-IE213.docx**
+**LAB01-IE213.docx** (Tải về để xem)
 
 ## 8. Một số hình ảnh minh họa
 ### Kết nối Atlas
@@ -78,9 +78,9 @@ Báo cáo đầy đủ của bài thực hành được trình bày trong file:
 
 ## 9. Đánh giá
 ### Đã hoàn thành
-- Hoàn thành toàn bộ yêu cầu Lab01
-- Thực hiện CRUD bằng mongosh
-- Có ảnh minh họa kết quả
+- Hoàn thành toàn bộ yêu cầu Lab01.
+- Thực hiện CRUD bằng mongosh.
+- Có ảnh minh họa kết quả.
 
 ### Chưa hoàn thành
 - Không
