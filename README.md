@@ -22,6 +22,7 @@ Repository này lưu trữ các bài thực hành môn **IE213 – Kỹ thuật 
 ---
 
 ## Cấu trúc repository
+```
 23521022-HoThiMinhNgoc-IE213.Q21
 │
 ├── Lab01
@@ -30,6 +31,7 @@ Repository này lưu trữ các bài thực hành môn **IE213 – Kỹ thuật 
 ├── Lab04
 ├── Lab05
 └── Lab06
+```
 
 Mỗi thư mục Lab bao gồm:
 - README.md mô tả bài thực hành
@@ -49,12 +51,12 @@ Mỗi thư mục Lab có `README.md` riêng mô tả:
 ---
 
 ## Tình trạng hoàn thành
-Lab01: Hoàn thành
-Lab02: Chưa thực hiện 
-Lab03: Chưa thực hiện
-Lab04: Chưa thực hiện
-Lab05: Chưa thực hiện
-Lab06: Chưa thực hiện
+- **Lab01**: Hoàn thành ✅
+- **Lab02**: Chưa thực hiện
+- **Lab03**: Chưa thực hiện
+- **Lab04**: Chưa thực hiện
+- **Lab05**: Chưa thực hiện
+- **Lab06**: Chưa thực hiện
 
 ---
 
