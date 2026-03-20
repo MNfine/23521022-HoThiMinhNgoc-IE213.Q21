@@ -13,7 +13,7 @@ Repository này lưu trữ các bài thực hành môn **IE213 – Kỹ thuật 
 
 ## Danh sách các Lab
 - [Lab01 - MongoDB CRUD Operation](Lab01/)
-- Lab02 - ...
+- [Lab02 - Movie Reviews Backend API](Lab02/)
 - Lab03 - ...
 - Lab04 - ...
 - Lab05 - ...
@@ -25,6 +25,8 @@ Repository này lưu trữ các bài thực hành môn **IE213 – Kỹ thuật 
 ```
 23521022-HoThiMinhNgoc-IE213.Q21
 │
+├── .gitignore
+├── README.md
 ├── Lab01
 ├── Lab02
 ├── Lab03
@@ -39,6 +41,12 @@ Mỗi thư mục Lab bao gồm:
 - Screenshots
 - Báo cáo chi tiết (nếu có)
 
+Riêng Lab02 có cấu trúc project Node.js backend theo mô hình Route - Controller - DAO:
+- movie-reviews/backend/index.js: khởi chạy server và kết nối MongoDB Atlas
+- movie-reviews/backend/server.js: cấu hình Express app và middleware
+- movie-reviews/backend/api/: định nghĩa route và controller
+- movie-reviews/backend/dao/: tầng truy xuất dữ liệu MongoDB
+
 ---
 
 ## Hướng dẫn
@@ -48,11 +56,15 @@ Mỗi thư mục Lab có `README.md` riêng mô tả:
 - cách chạy
 - kết quả thực hiện
 
+Có thể bắt đầu đọc theo thứ tự:
+1. Lab01: thao tác MongoDB CRUD và aggregation.
+2. Lab02: xây dựng backend API với Node.js/Express + MongoDB Atlas.
+
 ---
 
 ## Tình trạng hoàn thành
 - **Lab01**: Hoàn thành ✅
-- **Lab02**: Chưa thực hiện
+- **Lab02**: Hoàn thành ✅
 - **Lab03**: Chưa thực hiện
 - **Lab04**: Chưa thực hiện
 - **Lab05**: Chưa thực hiện
