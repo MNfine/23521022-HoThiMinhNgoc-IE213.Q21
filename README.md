@@ -14,7 +14,7 @@ Repository này lưu trữ các bài thực hành môn **IE213 – Kỹ thuật 
 ## Danh sách các Lab
 - [Lab01 - MongoDB CRUD Operation](Lab01/)
 - [Lab02 - Movie Reviews Backend API](Lab02/)
-- Lab03 - ...
+- [Lab03 - Movie Reviews CRUD + Review Management](Lab03/)
 - Lab04 - ...
 - Lab05 - ...
 - Lab06 - ...
@@ -41,11 +41,18 @@ Mỗi thư mục Lab bao gồm:
 - Screenshots
 - Báo cáo chi tiết (nếu có)
 
-Riêng Lab02 có cấu trúc project Node.js backend theo mô hình Route - Controller - DAO:
+Lab02 triển khai backend Node.js theo mô hình Route - Controller - DAO:
 - movie-reviews/backend/index.js: khởi chạy server và kết nối MongoDB Atlas
 - movie-reviews/backend/server.js: cấu hình Express app và middleware
 - movie-reviews/backend/api/: định nghĩa route và controller
 - movie-reviews/backend/dao/: tầng truy xuất dữ liệu MongoDB
+
+Lab03 mở rộng trực tiếp từ Lab02, bổ sung Review Management:
+- CRUD review: POST/PUT/DELETE `/api/v1/movies/review`
+- Lấy movie theo id kèm reviews: GET `/api/v1/movies/id/:id`
+- Lấy ratings distinct: GET `/api/v1/movies/ratings`
+- Có kiểm thử bằng Postman và đối chiếu MongoDB Compass trong `Lab03/screenshots`
+- Có báo cáo chi tiết: `Lab03/LAB03-IE213.docx` (tải về để xem)
 
 ---
 
@@ -59,13 +66,14 @@ Mỗi thư mục Lab có `README.md` riêng mô tả:
 Có thể bắt đầu đọc theo thứ tự:
 1. Lab01: thao tác MongoDB CRUD và aggregation.
 2. Lab02: xây dựng backend API với Node.js/Express + MongoDB Atlas.
+3. Lab03: mở rộng API với review CRUD, lookup reviews và ratings.
 
 ---
 
 ## Tình trạng hoàn thành
 - **Lab01**: Hoàn thành ✅
 - **Lab02**: Hoàn thành ✅
-- **Lab03**: Chưa thực hiện
+- **Lab03**: Hoàn thành ✅
 - **Lab04**: Chưa thực hiện
 - **Lab05**: Chưa thực hiện
 - **Lab06**: Chưa thực hiện
@@ -74,5 +82,5 @@ Có thể bắt đầu đọc theo thứ tự:
 
 ## Ghi chú sử dụng AI
 - Công cụ sử dụng: ChatGPT, GitHub Copilot  
-- Mục đích sử dụng: hỗ trợ giải thích lỗi, hướng dẫn tổ chức repository và hỗ trợ mô tả README  
-- Phần được AI hỗ trợ: cấu trúc README và giải thích kỹ thuật
+- Mục đích sử dụng: hỗ trợ giải thích lỗi, chuẩn hóa cấu trúc repository và hỗ trợ trình bày README  
+- Phần được AI hỗ trợ: mô tả kỹ thuật, chuẩn hóa tài liệu và rà soát nội dung
