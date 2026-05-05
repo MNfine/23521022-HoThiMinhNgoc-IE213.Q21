@@ -15,8 +15,8 @@ Repository này lưu trữ các bài thực hành môn **IE213 – Kỹ thuật 
 - [Lab01 - MongoDB CRUD Operation](Lab01/)
 - [Lab02 - Movie Reviews Backend API](Lab02/)
 - [Lab03 - Movie Reviews CRUD + Review Management](Lab03/)
-- Lab04 - ...
-- Lab05 - ...
+- [Lab04 - Movie Reviews Frontend (React)](Lab04/)
+- [Lab05 - Xây dựng Frontend với ReactJS](Lab05/)
 - Lab06 - ...
 
 ---
@@ -54,6 +54,20 @@ Lab03 mở rộng trực tiếp từ Lab02, bổ sung Review Management:
 - Có kiểm thử bằng Postman và đối chiếu MongoDB Compass trong `Lab03/screenshots`
 - Có báo cáo chi tiết: `Lab03/LAB03-IE213.docx` (tải về để xem)
 
+Lab04 xây dựng frontend React cơ bản:
+- Create React App scaffold
+- Các component: MoviesList, Movie, AddReview, Login
+- Sử dụng react-router-dom cho routing
+- react-bootstrap cho UI (Card, Form, Button, Row, Col)
+
+Lab05 hoàn thiện frontend với kết nối API:
+- Tạo `MovieDataService` (axios client) để kết nối backend API
+- MoviesList: tìm kiếm theo title, filter theo rating, hiển thị danh sách phim với poster
+- Movie detail: hiển thị 2 cột (poster bên trái, nội dung + reviews bên phải)
+- Review CRUD: thêm/sửa/xóa review với xác thực quyền thuộc sở hữu
+- Định dạng ngày giờ bằng moment.js
+- Fallback placeholder SVG cho ảnh bị lỗi
+
 ---
 
 ## Hướng dẫn
@@ -67,6 +81,8 @@ Có thể bắt đầu đọc theo thứ tự:
 1. Lab01: thao tác MongoDB CRUD và aggregation.
 2. Lab02: xây dựng backend API với Node.js/Express + MongoDB Atlas.
 3. Lab03: mở rộng API với review CRUD, lookup reviews và ratings.
+4. Lab04: xây dựng frontend React cơ bản với routing và component.
+5. Lab05: hoàn thiện frontend với kết nối API, review management và xử lý ảnh.
 
 ---
 
@@ -74,8 +90,8 @@ Có thể bắt đầu đọc theo thứ tự:
 - **Lab01**: Hoàn thành ✅
 - **Lab02**: Hoàn thành ✅
 - **Lab03**: Hoàn thành ✅
-- **Lab04**: Chưa thực hiện
-- **Lab05**: Chưa thực hiện
+- **Lab04**: Hoàn thành ✅
+- **Lab05**: Hoàn thành ✅
 - **Lab06**: Chưa thực hiện
 
 ---
